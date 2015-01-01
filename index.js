@@ -1,1 +1,1 @@
-module.exports = System._nodeRequire ? System._nodeRequire('domain-browser') : require('domain');
+module.exports = System._nodeRequire ? System._nodeRequire('domain') : require('domain-browser');
