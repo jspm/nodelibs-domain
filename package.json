@@ -2,15 +2,14 @@
   "main": "./domain.js",
   "name": "jspm-nodelibs-domain",
   "version": "0.2.0",
-  "registry": "github",
   "map": {
     "./domain.js": {
       "node": "@node/domain",
-      "browser": "domain-browserify"
+      "browser": "domain-browser"
     }
   },
   "dependencies": {
-    "domain-browserify": "npm:domain-browser@^1.1.7"
+    "domain-browser": "^1.1.7"
   },
   "jspmNodeConversion": false
 }
