@@ -1,7 +1,7 @@
 {
   "main": "./domain.js",
   "name": "jspm-nodelibs-domain",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "map": {
     "./domain.js": {
       "node": "@node/domain",
